@@ -45,8 +45,8 @@ def calculate_miles_per_gallon():
       Gas used (gallons): 25
       Miles per gallon: 2.2
     """
-    miles = input("How many miles have you driven?")
-    gas = input("How many gallons of gas have you used?")
+    miles = input("How many miles have you driven? ")
+    gas = input("How many gallons of gas have you used? ")
     mpg = int(miles) / int(gas)
     message = f"Miles per gallon: {mpg:.1f}"
     print(message)
